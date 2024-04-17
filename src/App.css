@@ -1,0 +1,46 @@
+/* Global styles */
+body {
+  background-color: white;
+  color: #343a40;
+}
+
+/* Dark mode styles */
+.dark {
+  background-color: #343a40;
+  color: white;
+}
+
+/* Theme-specific container styles */
+.light .container {
+  color: #222;
+  background: #fff;
+}
+
+.dark .container{
+  color: #fff;
+  background: #343a40;
+  min-height: 100vh;
+  width: 100%;
+}
+
+/* Theme-specific button styles */
+.light .button {
+  color: #222;
+  background: #fff;
+}
+
+/* Theme-specific heading styles */
+.dark .h1 {
+  color: #fff;
+}
+
+/* Light theme styles */
+.light .text-muted {
+  color: #6c757d; /* Adjust the color based on your light theme */
+}
+
+/* Dark theme styles */
+.dark .text-muted {
+  color: #adb5bd; /* Adjust the color based on your dark theme */
+}
+
